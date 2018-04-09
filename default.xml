@@ -4,9 +4,7 @@
   <default remote="magiclantern" revision="master" sync-j="4" sync-c="true" />
 
 <!-- Core Components -->
-  <project path="MagicLantern_Env" name="mle-core-env" remote="magiclantern" revision="master" >
-    <linkfile src="MagicLantern_Env/lib" dest="../libtest" />
-  </project>
+  <project path="MagicLantern_Env" name="mle-core-env" remote="magiclantern" revision="master" />
   <project path="MagicLantern_Util" name="mle-core-util" remote="magiclantern" revision="master" />
 
 <!-- SDK Components-->
