@@ -24,7 +24,7 @@ This section provides a step-by-step series of instructions that tell you how to
 Initialize the repositories using the default manifest located on Github.
 
 ```
-$ repo init -u https://github.com/magic-lantern-studio/mle-manifests
+$ repo init -u git@github.com:magic-lantern-studio/mle-manifests
 ```
 
 Synchronize the repositories, retreiving the source and binary artifacts required for creating the Magic Lantern artifacts (i.e. libraries, executables, etc.).
