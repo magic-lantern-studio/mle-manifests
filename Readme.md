@@ -5,7 +5,7 @@ Google 'repo' manifest files for Magic Lantern host development environment.
 ## Getting Started
 
 These instructions can be used to retreive a copy of the Magic Lantern git repositories for building an image on your local machine for development and testing purposes.
-n
+
 ### Prerequisites
 
 The Magic Lantern git repositories are retrieved using the Google 'repo' command. Use the following commands to install 'repo':
@@ -21,10 +21,10 @@ $ chmod a+x $HOME/.bin/repo
 
 This section provides a step-by-step series of instructions that tell you how to get a host development environment running. 
 
-Initialize the repositories using the default manifest located on Githyb.
+Initialize the repositories using the default manifest located on Github.
 
 ```
-$ repo init -u git@bitbucket.org:tchwb2/alticast-manifests
+$ repo init -u https://github.com/magic-lantern-studio/mle-manifests
 ```
 
 Synchronize the repositories, retreiving the source and binary artifacts required for creating the Magic Lantern artifacts (i.e. libraries, executables, etc.).
@@ -32,6 +32,8 @@ Synchronize the repositories, retreiving the source and binary artifacts require
 ```
 $ repo sync
 ```
+
+## Build Instructions
 
 ## Running the smoke tests
 
