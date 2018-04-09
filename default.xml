@@ -5,7 +5,7 @@
 
 <!-- Core Components -->
   <project path="MagicLantern_Env" name="mle-core-env" remote="magiclantern" revision="master" >
-    <linkfile src="lib" dest="MagicLantern_Env/lib" />
+    <linkfile src="MagicLantern_Env/lib" dest="../libtest" />
   </project>
   <project path="MagicLantern_Util" name="mle-core-util" remote="magiclantern" revision="master" />
 
