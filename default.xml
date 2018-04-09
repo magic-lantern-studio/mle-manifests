@@ -3,14 +3,26 @@
   <remote  name="magiclantern" fetch="ssh://git@github.com/magic-lantern-studio" />
   <default remote="magiclantern" revision="master" sync-j="4" sync-c="true" />
 
-<!-- Core Components -->
+<!-- Environment Components -->
   <project name="mle-core-env" remote="magiclantern" revision="master" />
-  <project name="mle-core-util" remote="magiclantern" revision="master" />
 
 <!-- SDK Components-->
+  <project name="mle-core-util" remote="magiclantern" revision="master" />
+  <project name="mle-core-math" remote="magiclantern" revision="master" />
+  <project name="mle-core-mlert" remote="magiclantern" revision="master" />
+  <project name="mle-core-dwp" remote="magiclantern" revision="master" />
+  <project name="mle-core-dpp" remote="magiclantern" revision="master" />
 
 <!-- Studio Components-->
+  <project name="mle-studio" remote="magiclantern" revision="master" />
+  <project name="mle-atk" remote="magiclantern" revision="master" />
+  <project name="mle-players" remote="magiclantern" revision="master" />
 
 <!-- Title Components-->
+  <project name="mle-parts" remote="magiclantern" revision="master" />
+  <project name="mle-titles" remote="magiclantern" revision="master" />
+
+<!-- Documentation -->
+  <project name="mle-documentation" remote="magiclantern" revision="master" />
 
 </manifest>
