@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="magiclantern" fetch="git@github.com:magic-lantern-studio" />
+  <default remote="magiclantern" revision="master" sync-j="4" sync-c="true" />
+
+<!-- Core Components -->
+  <project name="mle-core-env" remote="magiclantern" revision="master" />
+  <project name="mle-core-util" remote="magiclantern" revision="master" />
+
+<!-- SDK Components-->
+
+<!-- Studio Components-->
+
+<!-- Title Components-->
+
+</manifest>
