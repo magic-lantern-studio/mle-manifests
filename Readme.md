@@ -11,10 +11,10 @@ These instructions can be used to retreive a copy of the Magic Lantern git repos
 The Magic Lantern git repositories are retrieved using the Google 'repo' command. Use the following commands to install 'repo':
 
 ```
-$ mkdir $HOME/.bin/
-$ export PATH=$PATH:$HOME/.bin/repo >> $HOME/.profile
-$ curl https://storage.googleapis.com/git-repo-downloads/repo > $HOME/.bin/repo
-$ chmod a+x $HOME/.bin/repo
+$ mkdir $HOME/bin/
+$ export PATH=$PATH:$HOME/bin/repo >> $HOME/.profile
+$ curl https://storage.googleapis.com/git-repo-downloads/repo > $HOME/bin/repo
+$ chmod a+x $HOME/bin/repo
 ```
 
 ### Installing
