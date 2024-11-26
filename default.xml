@@ -16,6 +16,7 @@
 <!-- Studio Components-->
   <project name="mle-studio" remote="magiclantern" revision="master" />
   <project name="mle-atk" remote="magiclantern" revision="master" />
+  <project name="mle-loaders" remote="magiclantern" revision="master" />
   <project name="mle-players" remote="magiclantern" revision="master" />
 
 <!-- Title Components-->
